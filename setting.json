@@ -1,8 +1,8 @@
 {
-  "name-web":"STACKOVERFLOW MASKODING",
-  "author":"MASKODING",
+  "name-web":"WOKE",
+  "author":"WOKE",
   "remove-comment-html":true,
-  "target":"https://m.tribunnews.com",
+  "target":"https://www.woke.id",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -69,6 +69,21 @@
     }
   ],
   "inject-element-head":[
+    {
+      "name-element":"meta",
+      "data-attribute":[
+        {
+          "name-attribute":"name",
+          "value-attribute":"google-site-verification"
+        },
+        {
+          "name-attribute":"content",
+          "value-attribute":"eCDfDi63-7VJXNTL1fQTdZKzgg2yvAXPKJYpWvUX9zI"
+        }
+      ],
+      "data-innerHTML":"",
+      "position":"start"
+    },
     {
       "name-element":"meta",
       "data-attribute":[
